@@ -1,0 +1,47 @@
+.profile-card {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 30%;
+  border-radius: 25px;
+  padding: 5rem;
+  box-shadow: 2px -15px 50px 5px rgba(0, 0, 0, 0.2);
+  background-color: #fdfdfd;
+}
+
+.profile-card > .info-container {
+  width: 70%;
+  margin: 35px;
+}
+
+.profile-card h3 {
+  font-weight: 200;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(23, 37, 70, 0.493);
+}
+
+.btn {
+  outline: none;
+  cursor: pointer; 
+  padding-top: 15px;
+  padding: 0.5rem 1rem;
+  background: rgba(21, 52, 82, 0.493);
+  color: white;
+  border: none;
+  font-size: 20px;
+
+  transition: ease-in-out 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 4px 3px 10px 1px rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.493);
+  background: white;
+}
